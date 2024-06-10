@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: aqua;
+        }
+        button{
+            border: 2px solid black ;
+            border-radius: 4px;
+            padding: 10px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin: 30px;
+        }
+        .username{
+            border: 2px solid black ;
+        }
+    </style>
+</head>
+<body>
+    <label for="">
+        User Name : 
+    </label>
+    <input type="text" id="username" placeholder="Username">
+    <script>
+        alert("kirankumar");
+        function greet(){
+            var username=document.getElementById("username").value;
+        document.write("Welcome to JavaScript ! "+username);
+            }
+    </script>
+    <br>
+    <button onclick=greet()>Greet</button>
+</body>
+</html> 
